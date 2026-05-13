@@ -1,0 +1,41 @@
+# Part 2: Sparse View Reconstruction Configuration
+
+# Dataset settings (per PDF Section 6)
+datasets:
+  dl3dv:
+    path: data/dl3dv-2
+    sparsity: 30          # 1/30 frames
+  re10k:
+    path: data/re10k-1
+    sparsity: 30          # 1/30 frames
+  waymo:
+    path: data/waymo-405841
+    sparsity: 10          # 1/10 frames
+
+# DUSt3R settings
+dust3r:
+  image_size: 512
+  niter: 300              # Global alignment iterations
+  batch_size: 8           # Inference batch size
+  window: 5               # Sliding window for pairs
+
+# 3DGS training
+training:
+  iterations: 3000
+  lr_xyz: 0.00016
+  lr_features: 0.0025
+  lr_opacity: 0.05
+  lr_scaling: 0.005
+  lr_rotation: 0.001
+  densify_from: 500
+  densify_until: 2500
+  densify_interval: 100
+  eval_interval: 500
+
+# Output
+output:
+  base_path: outputs/part2
+  save_model: true
+  save_visualizations: true
+
+device: cuda

@@ -1,0 +1,18 @@
+{
+  "dataset": "data/dl3dv-2",
+  "sparsity": 10,
+  "num_sparse_views": 16,
+  "num_train_cameras": 12,
+  "num_holdout_test": 4,
+  "num_gt_test_views": 50,
+  "num_points": 32000,
+  "ate_rmse": 0.36256094317990345,
+  "psnr": 14.516650199890137,
+  "ssim": 0.2961401268839836,
+  "lpips": 0.497384674847126,
+  "psnr_gt_aligned": 8.75526879310608,
+  "ssim_gt_aligned": 0.23595874279737472,
+  "lpips_gt_aligned": 0.8343066084384918,
+  "training_iterations": 15000,
+  "best_train_psnr": 26.444501876831055
+}

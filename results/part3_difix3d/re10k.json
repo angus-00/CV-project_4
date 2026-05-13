@@ -1,0 +1,23 @@
+{
+  "dataset": "data/re10k-1",
+  "sparsity": 30,
+  "num_sparse_views": 10,
+  "num_train_sparse": 8,
+  "num_holdout_test": 2,
+  "num_pseudo_views": 24,
+  "max_per_pair": 8,
+  "num_total_views": 32,
+  "baseline_psnr": 11.701610565185547,
+  "baseline_ssim": 0.2894982621073723,
+  "baseline_lpips": 0.5806596577167511,
+  "enhanced_psnr": 13.80315113067627,
+  "enhanced_ssim": 0.36953115463256836,
+  "enhanced_lpips": 0.5178572237491608,
+  "delta_psnr": 2.1015405654907227,
+  "delta_ssim": 0.08003289252519608,
+  "delta_lpips": -0.06280243396759033,
+  "training_iterations": 10000,
+  "best_train_psnr": 35.68999481201172,
+  "total_time": 219.88645458221436,
+  "version": "difix3d"
+}

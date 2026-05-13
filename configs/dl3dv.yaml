@@ -1,0 +1,5 @@
+# DL3DV dataset configuration
+dataset:
+  type: dl3dv
+  path: ./data/dl3dv-2
+  image_scale: 1.0

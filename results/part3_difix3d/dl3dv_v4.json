@@ -1,0 +1,23 @@
+{
+  "dataset": "data/dl3dv-2",
+  "sparsity": 10,
+  "num_sparse_views": 31,
+  "num_train_sparse": 12,
+  "num_holdout_test": 4,
+  "num_pseudo_views": 30,
+  "max_per_pair": 3,
+  "num_total_views": 42,
+  "baseline_psnr": 14.516650199890137,
+  "baseline_ssim": 0.2961401268839836,
+  "baseline_lpips": 0.497384674847126,
+  "enhanced_psnr": 14.834155321121216,
+  "enhanced_ssim": 0.3025268614292145,
+  "enhanced_lpips": 0.4920361563563347,
+  "delta_psnr": 0.3175051212310791,
+  "delta_ssim": 0.0063867345452308655,
+  "delta_lpips": -0.005348518490791321,
+  "training_iterations": 7000,
+  "best_train_psnr": 25.118595123291016,
+  "total_time": 188.51607751846313,
+  "version": "difix3d_v4"
+}

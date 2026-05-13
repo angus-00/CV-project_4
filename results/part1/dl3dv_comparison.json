@@ -1,0 +1,24 @@
+{
+  "colmap": {
+    "success": true,
+    "time": 344.71319484710693,
+    "num_cameras": 306,
+    "num_points": 9494,
+    "metrics": {
+      "psnr": 8.290027418444234,
+      "ssim": 0.2715206843230032,
+      "lpips": 0.7915653115318667
+    }
+  },
+  "foundation": {
+    "success": true,
+    "time": 15.54837679862976,
+    "num_cameras": 50,
+    "num_points": 2457600,
+    "metrics": {
+      "psnr": 10.39088249206543,
+      "ssim": 0.28928102850914,
+      "lpips": 0.8733010053634643
+    }
+  }
+}

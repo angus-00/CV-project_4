@@ -1,0 +1,5 @@
+# Waymo dataset configuration
+dataset:
+  type: waymo
+  path: ./data/waymo-405841
+  image_scale: 1.0

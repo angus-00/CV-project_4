@@ -1,0 +1,42 @@
+{
+  "dataset": "data/dl3dv-2",
+  "sparsity": 10,
+  "num_sparse_views": 16,
+  "num_train_sparse": 12,
+  "num_holdout_test": 4,
+  "num_pseudo_views": 80,
+  "num_total_views": 92,
+  "baseline_psnr": 14.516650199890137,
+  "baseline_ssim": 0.2961401268839836,
+  "baseline_lpips": 0.497384674847126,
+  "enhanced_psnr": 14.558232307434082,
+  "enhanced_ssim": 0.29977239668369293,
+  "enhanced_lpips": 0.5066311210393906,
+  "delta_psnr": 0.04158210754394531,
+  "delta_ssim": 0.00363226979970932,
+  "delta_lpips": 0.009246446192264557,
+  "training_iterations": 15000,
+  "best_train_psnr": 22.406253814697266,
+  "total_time": 266.23412704467773,
+  "version": "reconx_v1",
+  "weight_cap": 0.45,
+  "num_rounds": 3,
+  "preflight": {
+    "test_frame": "pair000_frame01.png",
+    "t_norm": 0.06666666666666667,
+    "camera_id": "11",
+    "derived_from_camera_id": 0,
+    "pseudo_cam_size": [
+      512,
+      320
+    ],
+    "pseudo_cam_fx": 868.4581298828125,
+    "psnr_render_vs_dc": 9.36819839477539,
+    "psnr_dc_vs_real_endpoint": -1.0,
+    "recon_cam_sample": {
+      "width": 512,
+      "height": 384,
+      "fx": 452.7081604003906
+    }
+  }
+}

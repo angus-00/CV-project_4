@@ -1,0 +1,5 @@
+# RE10K dataset configuration
+dataset:
+  type: re10k
+  path: ./data/re10k-1
+  image_scale: 1.0

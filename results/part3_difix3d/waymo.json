@@ -1,0 +1,23 @@
+{
+  "dataset": "data/waymo-405841",
+  "sparsity": 10,
+  "num_sparse_views": 20,
+  "num_train_sparse": 16,
+  "num_holdout_test": 4,
+  "num_pseudo_views": 50,
+  "max_per_pair": 8,
+  "num_total_views": 66,
+  "baseline_psnr": 12.848188161849976,
+  "baseline_ssim": 0.4401085078716278,
+  "baseline_lpips": 0.7050414532423019,
+  "enhanced_psnr": 15.07489562034607,
+  "enhanced_ssim": 0.44872982054948807,
+  "enhanced_lpips": 0.721638947725296,
+  "delta_psnr": 2.2267074584960938,
+  "delta_ssim": 0.00862131267786026,
+  "delta_lpips": 0.01659749448299408,
+  "training_iterations": 10000,
+  "best_train_psnr": 28.606189727783203,
+  "total_time": 114.4858705997467,
+  "version": "difix3d"
+}

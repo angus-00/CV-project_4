@@ -1,0 +1,48 @@
+# Default configuration for 3DGS reconstruction project
+
+# Dataset settings
+dataset:
+  type: auto  # auto, dl3dv, re10k, waymo
+  path: ./data/dl3dv-2
+  image_scale: 1.0
+  test_split: 0.1
+
+# COLMAP settings
+colmap:
+  executable: E:/Colmap/COLMAP.bat
+  camera_model: PINHOLE
+  use_gpu: true
+  matcher: exhaustive  # exhaustive, sequential, vocab_tree
+
+# 3D Gaussian Splatting settings
+gaussian_splatting:
+  iterations: 30000
+  position_lr_init: 0.00016
+  position_lr_final: 0.0000016
+  feature_lr: 0.0025
+  opacity_lr: 0.05
+  scaling_lr: 0.005
+  rotation_lr: 0.001
+  densify_from_iter: 500
+  densify_until_iter: 15000
+  densification_interval: 100
+  opacity_reset_interval: 3000
+
+# Evaluation settings
+evaluation:
+  metrics: [psnr, ssim, lpips]
+  save_images: true
+  save_video: true
+
+# Output settings
+output:
+  base_dir: ./outputs
+  save_checkpoints: true
+  checkpoint_interval: 5000
+  log_interval: 100
+
+# Experiment tracking
+logging:
+  use_wandb: false
+  use_tensorboard: true
+  project_name: 3dgs-reconstruction
